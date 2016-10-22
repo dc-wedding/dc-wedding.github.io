@@ -2,7 +2,12 @@
 layout: default
 title: Dan Carvajal
 ---
-<div class="container">
-  <h1>Dan and Cassie's Wedding</h1>
-{% include new-contact-form.html %}
-</div>
+<section class="container" id="home">
+    <h1>Dan and Cassie's Wedding</h1>
+</section>
+<section class="container" id="location">
+    {% include location.html %}
+</section>
+<section class="container" id="contact">
+  {% include new-contact-form.html %}
+</section>
