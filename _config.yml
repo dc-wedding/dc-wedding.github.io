@@ -1,10 +1,10 @@
 # Site settings
-site:  Dan Carvajal
+site:  Dan and Cassie's Wedding
 name: Dan Carvajal
 title: Dan Carvajal
 email: dan.v.carvajal@gmail.com
 baseurl: ""
-url: "http://dancarvajal.com" # the base hostname & protocol for your site
+url: "http://dan-cassie.com" # the base hostname & protocol for your site
 description: "The thoughts and writings of Dan Carvajal."
 locale: en_us
 
@@ -25,9 +25,6 @@ fb_appid:           508362279313777
 
 # Build settings
 markdown: kramdown
-
-paginate_path: /page:num/
-paginate:      5
 
 sass:
   style: compressed
