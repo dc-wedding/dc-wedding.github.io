@@ -1,0 +1,40 @@
+# Site settings
+site:  Dan Carvajal
+name: Dan Carvajal
+title: Dan Carvajal
+email: dan.v.carvajal@gmail.com
+baseurl: ""
+url: "http://dancarvajal.com" # the base hostname & protocol for your site
+description: "The thoughts and writings of Dan Carvajal."
+locale: en_us
+
+author:
+  name:           Dan Carvajal
+  email:          "dan.v.carvajal@gmail.com"
+  uri:            "https://twitter.com/dan_v_c"
+  twitter:        dan_v_c
+  google_plus:    DanCarvajal
+  github:         DanCarvajal
+  linkedin:       DanCarvajal
+  fb_id:          648807029
+  country:        United States
+
+# Open Graph
+fb_admins:          648807029
+fb_appid:           508362279313777
+
+# Build settings
+markdown: kramdown
+
+paginate_path: /page:num/
+paginate:      5
+
+sass:
+  style: compressed
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
