@@ -1,11 +1,11 @@
 # Site settings
 site:  Dan and Cassie's Wedding
-name: Dan Carvajal
-title: Dan Carvajal
+name: Dan and Cassie's Wedding
+title: Dan and Cassie's Wedding
 email: dan.v.carvajal@gmail.com
 baseurl: ""
 url: "http://dan-cassie.com" # the base hostname & protocol for your site
-description: "The thoughts and writings of Dan Carvajal."
+description: "The office site of Dan and Cassie."
 locale: en_us
 
 author:
