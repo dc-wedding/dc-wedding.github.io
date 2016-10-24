@@ -3,23 +3,25 @@ layout: default
 title: D and C Wedding
 ---
 <section class="container" id="date">
-    <h1>Dan and Cassie's Wedding</h1>
-    {% include date.html %}
+    <h1>Dan and Cassie's Wedding</h1> {% include date.html %}
 </section>
 <section class="container">
-  <p style="font-size: 2rem; font-weight: 700;">
-    Welcome to the website for our wedding.
-  </p>
-    <p style="font-size: 2rem; font-weight: 700;">
-      We're still working on getting everything put together, but the date and location are set. If you've recieved this link, please fill out your contact information in the form at the bottom of the page. We've got a lot of announcements we'll want to share with you.
-    </p>
-    <p style="font-size: 2rem; font-weight: 700;">
-      -Dan and Cassie
-    </p>
+    <blockquote>
+        <p style="font-size: 2rem;">
+            Welcome to the website for our wedding.
+        </p>
+        <p style="font-size: 2rem;">
+            We're still working on getting everything put together, but the date and location are set. If you've recieved this link, please fill out your contact information in the form at the bottom of the page. We've got a lot of announcements we'll want to share
+            with you.
+        </p>
+        <p style="font-size: 2rem;">
+            -Dan and Cassie
+        </p>
+    </blockquote>
 </section>
 <section class="container" id="location">
     {% include location.html %}
 </section>
 <section class="container" id="contact">
-  {% include new-contact-form.html %}
+    {% include new-contact-form.html %}
 </section>
